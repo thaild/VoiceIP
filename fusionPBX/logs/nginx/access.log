@@ -1,0 +1,7 @@
+172.29.0.1 - - [17/Jul/2018:08:29:40 +0000] "GET / HTTP/1.1" 301 184 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/67.0.3396.99 Chrome/67.0.3396.99 Safari/537.36"
+172.29.0.1 - - [17/Jul/2018:08:29:45 +0000] "GET / HTTP/1.1" 502 574 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/67.0.3396.99 Chrome/67.0.3396.99 Safari/537.36"
+172.29.0.1 - - [17/Jul/2018:08:29:45 +0000] "GET /favicon.ico HTTP/1.1" 404 200 "https://172.29.0.5/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/67.0.3396.99 Chrome/67.0.3396.99 Safari/537.36"
+172.29.0.1 - - [17/Jul/2018:08:29:51 +0000] "GET / HTTP/1.1" 502 574 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/67.0.3396.99 Chrome/67.0.3396.99 Safari/537.36"
+172.29.0.1 - - [17/Jul/2018:08:29:52 +0000] "GET / HTTP/1.1" 502 574 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/67.0.3396.99 Chrome/67.0.3396.99 Safari/537.36"
+172.29.0.1 - - [17/Jul/2018:08:31:37 +0000] "GET / HTTP/1.1" 502 574 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/67.0.3396.99 Chrome/67.0.3396.99 Safari/537.36"
+172.29.0.1 - - [17/Jul/2018:08:31:43 +0000] "GET / HTTP/1.1" 502 574 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/67.0.3396.99 Chrome/67.0.3396.99 Safari/537.36"

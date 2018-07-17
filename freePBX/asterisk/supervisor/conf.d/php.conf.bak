@@ -1,0 +1,10 @@
+# [program:php-fpm]
+# # command = /usr/sbin/php-fpm -FR
+# command=/bin/bash -c "exec /usr/sbin/php-fpm -F"
+# user = vicoders
+# autostart = true
+# priority=222
+# startretries=0
+# autorestart=true
+# exitcodes=0
+

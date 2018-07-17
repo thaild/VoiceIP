@@ -1,0 +1,600 @@
+[2018-07-17 05:00:26] Asterisk 13.22.0 built by root @ c21de52d607e on a x86_64 running Linux on 2018-07-17 04:29:59 UTC
+[2018-07-17 05:00:26] NOTICE[10] loader.c: 6 modules will be loaded.
+[2018-07-17 05:00:26] WARNING[10] loader.c: Error loading module 'chan_local.so': /usr/lib64/asterisk/modules/chan_local.so: cannot open shared object file: No such file or directory
+[2018-07-17 05:00:26] WARNING[10] res_odbc.c: The 'pooling', 'shared_connections', 'limit', and 'idlecheck' options were replaced by 'max_connections'.  See res_odbc.conf.sample.
+[2018-07-17 05:00:26] WARNING[10] res_odbc.c: The 'pooling', 'shared_connections', 'limit', and 'idlecheck' options were replaced by 'max_connections'.  See res_odbc.conf.sample.
+[2018-07-17 05:00:26] WARNING[10] res_odbc.c: res_odbc: Error SQLConnect=-1 errno=2002 [unixODBC][MySQL][ODBC 5.1 Driver]Can't connect to local MySQL server through socket '/var/lib/mysq
+[2018-07-17 05:00:26] NOTICE[10] res_odbc.c: Registered ODBC class 'asteriskcdrdb' dsn->[MySQL-asteriskcdrdb]
+[2018-07-17 05:00:26] WARNING[10] res_odbc.c: res_odbc: Error SQLConnect=-1 errno=2002 [unixODBC][MySQL][ODBC 5.1 Driver]Can't connect to local MySQL server through socket '/var/lib/mysq
+[2018-07-17 05:00:26] WARNING[10] cdr_adaptive_odbc.c: No such connection 'asteriskcdrdb' in the 'asteriskcdrdb' section of cdr_adaptive_odbc.conf.  Check res_odbc.conf.
+[2018-07-17 05:00:26] WARNING[10] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 198 of /etc/asterisk/extensions_additional.conf
+[2018-07-17 05:00:26] WARNING[10] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 199 of /etc/asterisk/extensions_additional.conf
+[2018-07-17 05:00:26] WARNING[10] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 814 of /etc/asterisk/extensions_additional.conf
+[2018-07-17 05:00:26] WARNING[10] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 815 of /etc/asterisk/extensions_additional.conf
+[2018-07-17 05:00:26] WARNING[10] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 816 of /etc/asterisk/extensions_additional.conf
+[2018-07-17 05:00:26] WARNING[10] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 127 of extensions.conf
+[2018-07-17 05:00:26] WARNING[10] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 128 of extensions.conf
+[2018-07-17 05:00:26] WARNING[10] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 129 of extensions.conf
+[2018-07-17 05:00:26] WARNING[10] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 130 of extensions.conf
+[2018-07-17 05:00:26] WARNING[10] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 131 of extensions.conf
+[2018-07-17 05:00:26] WARNING[10] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 132 of extensions.conf
+[2018-07-17 05:00:26] WARNING[10] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 133 of extensions.conf
+[2018-07-17 05:00:26] WARNING[10] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 146 of extensions.conf
+[2018-07-17 05:00:26] WARNING[10] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 147 of extensions.conf
+[2018-07-17 05:00:26] WARNING[10] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 148 of extensions.conf
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'from-did-direct' tries to include nonexistent context 'ext-findmefollow'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'from-internal-xfer' tries to include nonexistent context 'from-internal-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'from-internal-noxfer' tries to include nonexistent context 'from-internal-noxfer-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'from-pstn' tries to include nonexistent context 'from-pstn-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'from-internal-noxfer-additional' tries to include nonexistent context 'from-internal-noxfer-additional-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'from-internal-additional' tries to include nonexistent context 'from-internal-additional-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'macro-parked-call' tries to include nonexistent context 'macro-parked-call-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'func-apply-sipheaders' tries to include nonexistent context 'func-apply-sipheaders-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'func-set-sipheader' tries to include nonexistent context 'func-set-sipheader-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'macro-dial-one' tries to include nonexistent context 'macro-dial-one-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'macro-hangupcall' tries to include nonexistent context 'macro-hangupcall-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'macro-blkvm-check' tries to include nonexistent context 'macro-blkvm-check-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'macro-blkvm-clr' tries to include nonexistent context 'macro-blkvm-clr-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'macro-blkvm-set' tries to include nonexistent context 'macro-blkvm-set-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'macro-blkvm-setifempty' tries to include nonexistent context 'macro-blkvm-setifempty-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'originate-skipvm' tries to include nonexistent context 'originate-skipvm-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'macro-simple-dial' tries to include nonexistent context 'macro-simple-dial-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'macro-exten-vm' tries to include nonexistent context 'macro-exten-vm-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'macro-vm' tries to include nonexistent context 'macro-vm-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'macro-block-cf' tries to include nonexistent context 'macro-block-cf-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'macro-setmusic' tries to include nonexistent context 'macro-setmusic-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'macro-dial-confirm' tries to include nonexistent context 'macro-dial-confirm-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'from-dahdi' tries to include nonexistent context 'from-dahdi-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'from-zaptel' tries to include nonexistent context 'from-zaptel-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'macro-outbound-callerid' tries to include nonexistent context 'macro-outbound-callerid-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'macro-user-callerid' tries to include nonexistent context 'macro-user-callerid-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'macro-privacy-mgr' tries to include nonexistent context 'macro-privacy-mgr-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'sub-pincheck' tries to include nonexistent context 'sub-pincheck-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'macro-auto-blkvm' tries to include nonexistent context 'macro-auto-blkvm-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'macro-auto-confirm' tries to include nonexistent context 'macro-auto-confirm-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'macro-confirm' tries to include nonexistent context 'macro-confirm-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'bad-number' tries to include nonexistent context 'bad-number-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'app-blackhole' tries to include nonexistent context 'app-blackhole-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'outbound-allroutes' tries to include nonexistent context 'outbound-allroutes-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'macro-prepend-cid' tries to include nonexistent context 'macro-prepend-cid-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'ext-trunk' tries to include nonexistent context 'ext-trunk-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'ext-local' tries to include nonexistent context 'ext-local-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'from-did-direct-ivr' tries to include nonexistent context 'from-did-direct-ivr-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'ext-did-catchall' tries to include nonexistent context 'ext-did-catchall-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'ext-did' tries to include nonexistent context 'ext-did-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'ext-test' tries to include nonexistent context 'ext-test-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'app-chanspy' tries to include nonexistent context 'app-chanspy-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'app-pickup' tries to include nonexistent context 'app-pickup-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'findmefollow-ringallv2' tries to include nonexistent context 'findmefollow-ringallv2-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'ext-local-confirm' tries to include nonexistent context 'ext-local-confirm-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'macro-dial' tries to include nonexistent context 'macro-dial-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'app-userlogonoff' tries to include nonexistent context 'app-userlogonoff-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'app-vmmain' tries to include nonexistent context 'app-vmmain-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'app-dialvm' tries to include nonexistent context 'app-dialvm-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'vm-callme' tries to include nonexistent context 'vm-callme-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'macro-systemrecording' tries to include nonexistent context 'macro-systemrecording-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'systemrecording-gui' tries to include nonexistent context 'systemrecording-gui-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'sub-hr24format' tries to include nonexistent context 'sub-hr24format-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'app-speakingclock' tries to include nonexistent context 'app-speakingclock-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'sub-hr12format' tries to include nonexistent context 'sub-hr12format-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'app-speakextennum' tries to include nonexistent context 'app-speakextennum-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'app-echo-test-echo' tries to include nonexistent context 'app-echo-test-echo-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'app-echo-test' tries to include nonexistent context 'app-echo-test-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'app-calltrace-perform' tries to include nonexistent context 'app-calltrace-perform-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'app-calltrace' tries to include nonexistent context 'app-calltrace-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'ext-featurecodes' tries to include nonexistent context 'ext-featurecodes-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'macro-one-touch-record' tries to include nonexistent context 'macro-one-touch-record-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'sub-record-hh-check' tries to include nonexistent context 'sub-record-hh-check-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'sub-record-check' tries to include nonexistent context 'sub-record-check-custom'
+[2018-07-17 05:00:26] WARNING[10] pbx.c: Context 'sub-record-cancel' tries to include nonexistent context 'sub-record-cancel-custom'
+[2018-07-17 05:00:26] NOTICE[10] dnsmgr.c: Managed DNS entries will be refreshed every 300 seconds.
+[2018-07-17 05:00:26] ERROR[10] config_options.c: Unable to load config file 'acl.conf'
+[2018-07-17 05:00:26] NOTICE[10] cdr.c: CDR simple logging enabled.
+[2018-07-17 05:00:26] ERROR[10] config_options.c: Unable to load config file 'cel.conf'
+[2018-07-17 05:00:26] NOTICE[10] cel.c: Failed to process CEL configuration; using defaults
+[2018-07-17 05:00:27] WARNING[10] ccss.c: Could not find valid ccss.conf file. Using cc_max_requests default
+[2018-07-17 05:00:27] WARNING[10] ccss.c: Could not find valid ccss.conf file. Using cc_[state]_devstate defaults
+[2018-07-17 05:00:27] NOTICE[10] loader.c: 248 modules will be loaded.
+[2018-07-17 05:00:30] WARNING[10] loader.c: Error loading module 'res_xmpp.so': libiksemel.so.3: cannot open shared object file: No such file or directory
+[2018-07-17 05:00:30] WARNING[10] loader.c: Error loading module 'chan_motif.so': libiksemel.so.3: cannot open shared object file: No such file or directory
+[2018-07-17 05:00:30] WARNING[10] loader.c: Error loading module 'res_calendar_exchange.so': libiksemel.so.3: cannot open shared object file: No such file or directory
+[2018-07-17 05:00:30] ERROR[10] config_options.c: Unable to load config file 'statsd.conf'
+[2018-07-17 05:00:30] WARNING[10] res_stun_monitor.c: Unable to load config res_stun_monitor.conf
+[2018-07-17 05:00:30] NOTICE[10] res_smdi.c: Unable to load config smdi.conf: SMDI disabled
+[2018-07-17 05:00:30] NOTICE[10] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[2018-07-17 05:00:30] NOTICE[10] res_fax.c: Configuration file 'res_fax.conf' not found, using default options.
+[2018-07-17 05:00:30] ERROR[10] config_options.c: Unable to load config file 'ari.conf'
+[2018-07-17 05:00:30] ERROR[10] ari/config.c: Error obtaining config from ari.conf
+[2018-07-17 05:00:30] ERROR[10] config_options.c: Unable to load config file 'hep.conf'
+[2018-07-17 05:00:30] ERROR[10] res_calendar.c: Unable to load config calendar.conf
+[2018-07-17 05:00:30] ERROR[10] pbx_lua.c: Error loading extensions.lua: cannot open '/etc/asterisk/extensions.lua' for reading: No such file or directory
+[2018-07-17 05:00:30] ERROR[10] config_options.c: Unable to load config file 'res_parking.conf'
+[2018-07-17 05:00:30] WARNING[10] res_config_pgsql.c: Unable to load config res_pgsql.conf
+[2018-07-17 05:00:30] VERBOSE[10] chan_sip.c: SIP channel loading...
+[2018-07-17 05:00:30] NOTICE[10] iax2/provision.c: No IAX provisioning configuration found, IAX provisioning disabled.
+[2018-07-17 05:00:30] NOTICE[10] chan_console.c: Unable to open configuration file console.conf!
+[2018-07-17 05:00:30] NOTICE[10] chan_skinny.c: Configuring skinny from skinny.conf
+[2018-07-17 05:00:30] NOTICE[10] chan_skinny.c: Unable to load config skinny.conf, Skinny disabled.
+[2018-07-17 05:00:30] ERROR[10] config_options.c: Unable to load config file 'agents.conf'
+[2018-07-17 05:00:30] ERROR[10] app_agent_pool.c: Unable to load config. Not loading module.
+[2018-07-17 05:00:30] NOTICE[10] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[2018-07-17 05:00:30] WARNING[10] res_calendar.c: Calendar support disabled, not loading caldav calendar module
+[2018-07-17 05:00:30] WARNING[10] res_calendar.c: Calendar support disabled, not loading ews calendar module
+[2018-07-17 05:00:30] WARNING[10] res_calendar.c: Calendar support disabled, not loading ical calendar module
+[2018-07-17 05:00:30] NOTICE[10] cel_tds.c: Unable to load TDS config for CELs: cel_tds.conf
+[2018-07-17 05:00:30] WARNING[10] cel_tds.c: cel_tds module had config problems; declining load
+[2018-07-17 05:00:30] WARNING[10] cel_manager.c: Failed to load configuration file. CEL manager Module not activated.
+[2018-07-17 05:00:30] ERROR[10] cdr_syslog.c: Unable to load cdr_syslog.conf. Not logging custom CSV CDRs to syslog.
+[2018-07-17 05:00:30] NOTICE[10] cdr_tds.c: Unable to load TDS config for CDRs: cdr_tds.conf
+[2018-07-17 05:00:30] WARNING[10] cdr_odbc.c: cdr_odbc: Unable to load config for ODBC CDR's: cdr_odbc.conf
+[2018-07-17 05:00:30] WARNING[10] cdr_manager.c: Failed to load configuration file. Module not activated.
+[2018-07-17 05:00:30] WARNING[10] cel_pgsql.c: Unable to load config for PostgreSQL CEL's: cel_pgsql.conf
+[2018-07-17 05:00:30] WARNING[10] cdr_sqlite3_custom.c: Failed to load configuration file. Module not activated.
+[2018-07-17 05:00:30] WARNING[10] cel_sqlite3_custom.c: Failed to load configuration file. Module not activated.
+[2018-07-17 05:00:30] WARNING[10] cel_odbc.c: Unable to load cel_odbc.conf.  No ODBC CEL records!
+[2018-07-17 05:00:30] WARNING[10] cdr_pgsql.c: Unable to load config for PostgreSQL CDR's: cdr_pgsql.conf
+[2018-07-17 05:00:30] WARNING[10] res_hep_rtcp.c: res_hep is not loaded or running; declining module load
+[2018-07-17 05:00:30] ERROR[10] pbx_dundi.c: Unable to load config dundi.conf
+[2018-07-17 05:00:30] ERROR[10] app_amd.c: Configuration file amd.conf missing.
+[2018-07-17 05:00:30] WARNING[10] app_voicemail.c: maxsilence should be less than minsecs or you may get empty messages
+[2018-07-17 05:00:30] ERROR[10] chan_unistim.c: Unable to load config unistim.conf
+[2018-07-17 05:00:30] ERROR[10] chan_phone.c: Unable to load config phone.conf
+[2018-07-17 05:00:30] WARNING[10] res_snmp.c: Could not load res_snmp.conf
+[2018-07-17 05:00:30] WARNING[10] app_festival.c: No such configuration file festival.conf
+[2018-07-17 05:00:30] WARNING[10] app_followme.c: No follow me config file (followme.conf), so no follow me
+[2018-07-17 05:00:30] NOTICE[10] func_odbc.c: Unable to load config for func_odbc: func_odbc.conf
+[2018-07-17 05:00:30] NOTICE[10] pbx_ael.c: File /etc/asterisk/extensions.ael not found; AEL declining load
+[2018-07-17 05:00:30] NOTICE[10] app_queue.c: No queuerules.conf file found, queues will not follow penalty rules
+[2018-07-17 05:00:30] VERBOSE[10] asterisk.c: Asterisk Ready.
+[2018-07-17 05:02:23] VERBOSE[10] asterisk.c: Asterisk cleanly ending (0).
+[2018-07-17 05:02:23] VERBOSE[10] asterisk.c: Executing last minute cleanups
+[2018-07-17 05:02:29] Asterisk 13.22.0 built by root @ c21de52d607e on a x86_64 running Linux on 2018-07-17 04:29:59 UTC
+[2018-07-17 05:02:29] NOTICE[9] loader.c: 6 modules will be loaded.
+[2018-07-17 05:02:29] WARNING[9] loader.c: Error loading module 'chan_local.so': /usr/lib64/asterisk/modules/chan_local.so: cannot open shared object file: No such file or directory
+[2018-07-17 05:02:29] WARNING[9] res_odbc.c: The 'pooling', 'shared_connections', 'limit', and 'idlecheck' options were replaced by 'max_connections'.  See res_odbc.conf.sample.
+[2018-07-17 05:02:29] WARNING[9] res_odbc.c: The 'pooling', 'shared_connections', 'limit', and 'idlecheck' options were replaced by 'max_connections'.  See res_odbc.conf.sample.
+[2018-07-17 05:02:29] WARNING[9] res_odbc.c: res_odbc: Error SQLConnect=-1 errno=2002 [unixODBC][MySQL][ODBC 5.1 Driver]Can't connect to local MySQL server through socket '/var/lib/mysq
+[2018-07-17 05:02:29] NOTICE[9] res_odbc.c: Registered ODBC class 'asteriskcdrdb' dsn->[MySQL-asteriskcdrdb]
+[2018-07-17 05:02:29] WARNING[9] res_odbc.c: res_odbc: Error SQLConnect=-1 errno=2002 [unixODBC][MySQL][ODBC 5.1 Driver]Can't connect to local MySQL server through socket '/var/lib/mysq
+[2018-07-17 05:02:29] WARNING[9] cdr_adaptive_odbc.c: No such connection 'asteriskcdrdb' in the 'asteriskcdrdb' section of cdr_adaptive_odbc.conf.  Check res_odbc.conf.
+[2018-07-17 05:02:29] WARNING[9] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 198 of /etc/asterisk/extensions_additional.conf
+[2018-07-17 05:02:29] WARNING[9] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 199 of /etc/asterisk/extensions_additional.conf
+[2018-07-17 05:02:29] WARNING[9] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 814 of /etc/asterisk/extensions_additional.conf
+[2018-07-17 05:02:29] WARNING[9] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 815 of /etc/asterisk/extensions_additional.conf
+[2018-07-17 05:02:29] WARNING[9] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 816 of /etc/asterisk/extensions_additional.conf
+[2018-07-17 05:02:29] WARNING[9] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 127 of extensions.conf
+[2018-07-17 05:02:29] WARNING[9] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 128 of extensions.conf
+[2018-07-17 05:02:29] WARNING[9] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 129 of extensions.conf
+[2018-07-17 05:02:29] WARNING[9] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 130 of extensions.conf
+[2018-07-17 05:02:29] WARNING[9] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 131 of extensions.conf
+[2018-07-17 05:02:29] WARNING[9] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 132 of extensions.conf
+[2018-07-17 05:02:29] WARNING[9] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 133 of extensions.conf
+[2018-07-17 05:02:29] WARNING[9] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 146 of extensions.conf
+[2018-07-17 05:02:29] WARNING[9] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 147 of extensions.conf
+[2018-07-17 05:02:29] WARNING[9] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 148 of extensions.conf
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'from-did-direct' tries to include nonexistent context 'ext-findmefollow'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'from-internal-xfer' tries to include nonexistent context 'from-internal-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'from-internal-noxfer' tries to include nonexistent context 'from-internal-noxfer-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'from-pstn' tries to include nonexistent context 'from-pstn-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'from-internal-noxfer-additional' tries to include nonexistent context 'from-internal-noxfer-additional-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'from-internal-additional' tries to include nonexistent context 'from-internal-additional-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'macro-parked-call' tries to include nonexistent context 'macro-parked-call-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'func-apply-sipheaders' tries to include nonexistent context 'func-apply-sipheaders-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'func-set-sipheader' tries to include nonexistent context 'func-set-sipheader-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'macro-dial-one' tries to include nonexistent context 'macro-dial-one-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'macro-hangupcall' tries to include nonexistent context 'macro-hangupcall-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'macro-blkvm-check' tries to include nonexistent context 'macro-blkvm-check-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'macro-blkvm-clr' tries to include nonexistent context 'macro-blkvm-clr-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'macro-blkvm-set' tries to include nonexistent context 'macro-blkvm-set-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'macro-blkvm-setifempty' tries to include nonexistent context 'macro-blkvm-setifempty-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'originate-skipvm' tries to include nonexistent context 'originate-skipvm-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'macro-simple-dial' tries to include nonexistent context 'macro-simple-dial-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'macro-exten-vm' tries to include nonexistent context 'macro-exten-vm-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'macro-vm' tries to include nonexistent context 'macro-vm-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'macro-block-cf' tries to include nonexistent context 'macro-block-cf-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'macro-setmusic' tries to include nonexistent context 'macro-setmusic-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'macro-dial-confirm' tries to include nonexistent context 'macro-dial-confirm-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'from-dahdi' tries to include nonexistent context 'from-dahdi-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'from-zaptel' tries to include nonexistent context 'from-zaptel-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'macro-outbound-callerid' tries to include nonexistent context 'macro-outbound-callerid-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'macro-user-callerid' tries to include nonexistent context 'macro-user-callerid-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'macro-privacy-mgr' tries to include nonexistent context 'macro-privacy-mgr-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'sub-pincheck' tries to include nonexistent context 'sub-pincheck-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'macro-auto-blkvm' tries to include nonexistent context 'macro-auto-blkvm-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'macro-auto-confirm' tries to include nonexistent context 'macro-auto-confirm-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'macro-confirm' tries to include nonexistent context 'macro-confirm-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'bad-number' tries to include nonexistent context 'bad-number-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'app-blackhole' tries to include nonexistent context 'app-blackhole-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'outbound-allroutes' tries to include nonexistent context 'outbound-allroutes-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'macro-prepend-cid' tries to include nonexistent context 'macro-prepend-cid-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'ext-trunk' tries to include nonexistent context 'ext-trunk-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'ext-local' tries to include nonexistent context 'ext-local-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'from-did-direct-ivr' tries to include nonexistent context 'from-did-direct-ivr-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'ext-did-catchall' tries to include nonexistent context 'ext-did-catchall-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'ext-did' tries to include nonexistent context 'ext-did-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'ext-test' tries to include nonexistent context 'ext-test-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'app-chanspy' tries to include nonexistent context 'app-chanspy-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'app-pickup' tries to include nonexistent context 'app-pickup-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'findmefollow-ringallv2' tries to include nonexistent context 'findmefollow-ringallv2-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'ext-local-confirm' tries to include nonexistent context 'ext-local-confirm-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'macro-dial' tries to include nonexistent context 'macro-dial-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'app-userlogonoff' tries to include nonexistent context 'app-userlogonoff-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'app-vmmain' tries to include nonexistent context 'app-vmmain-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'app-dialvm' tries to include nonexistent context 'app-dialvm-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'vm-callme' tries to include nonexistent context 'vm-callme-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'macro-systemrecording' tries to include nonexistent context 'macro-systemrecording-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'systemrecording-gui' tries to include nonexistent context 'systemrecording-gui-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'sub-hr24format' tries to include nonexistent context 'sub-hr24format-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'app-speakingclock' tries to include nonexistent context 'app-speakingclock-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'sub-hr12format' tries to include nonexistent context 'sub-hr12format-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'app-speakextennum' tries to include nonexistent context 'app-speakextennum-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'app-echo-test-echo' tries to include nonexistent context 'app-echo-test-echo-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'app-echo-test' tries to include nonexistent context 'app-echo-test-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'app-calltrace-perform' tries to include nonexistent context 'app-calltrace-perform-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'app-calltrace' tries to include nonexistent context 'app-calltrace-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'ext-featurecodes' tries to include nonexistent context 'ext-featurecodes-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'macro-one-touch-record' tries to include nonexistent context 'macro-one-touch-record-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'sub-record-hh-check' tries to include nonexistent context 'sub-record-hh-check-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'sub-record-check' tries to include nonexistent context 'sub-record-check-custom'
+[2018-07-17 05:02:29] WARNING[9] pbx.c: Context 'sub-record-cancel' tries to include nonexistent context 'sub-record-cancel-custom'
+[2018-07-17 05:02:29] NOTICE[9] dnsmgr.c: Managed DNS entries will be refreshed every 300 seconds.
+[2018-07-17 05:02:29] ERROR[9] config_options.c: Unable to load config file 'acl.conf'
+[2018-07-17 05:02:29] NOTICE[9] cdr.c: CDR simple logging enabled.
+[2018-07-17 05:02:29] ERROR[9] config_options.c: Unable to load config file 'cel.conf'
+[2018-07-17 05:02:29] NOTICE[9] cel.c: Failed to process CEL configuration; using defaults
+[2018-07-17 05:02:29] WARNING[9] ccss.c: Could not find valid ccss.conf file. Using cc_max_requests default
+[2018-07-17 05:02:29] WARNING[9] ccss.c: Could not find valid ccss.conf file. Using cc_[state]_devstate defaults
+[2018-07-17 05:02:29] NOTICE[9] loader.c: 248 modules will be loaded.
+[2018-07-17 05:02:29] WARNING[9] loader.c: Error loading module 'res_xmpp.so': libiksemel.so.3: cannot open shared object file: No such file or directory
+[2018-07-17 05:02:29] WARNING[9] loader.c: Error loading module 'chan_motif.so': libiksemel.so.3: cannot open shared object file: No such file or directory
+[2018-07-17 05:02:29] WARNING[9] loader.c: Error loading module 'res_calendar_exchange.so': libiksemel.so.3: cannot open shared object file: No such file or directory
+[2018-07-17 05:02:29] ERROR[9] config_options.c: Unable to load config file 'statsd.conf'
+[2018-07-17 05:02:29] WARNING[9] res_stun_monitor.c: Unable to load config res_stun_monitor.conf
+[2018-07-17 05:02:29] NOTICE[9] res_smdi.c: Unable to load config smdi.conf: SMDI disabled
+[2018-07-17 05:02:29] NOTICE[9] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[2018-07-17 05:02:29] NOTICE[9] res_fax.c: Configuration file 'res_fax.conf' not found, using default options.
+[2018-07-17 05:02:29] ERROR[9] config_options.c: Unable to load config file 'ari.conf'
+[2018-07-17 05:02:29] ERROR[9] ari/config.c: Error obtaining config from ari.conf
+[2018-07-17 05:02:29] ERROR[9] config_options.c: Unable to load config file 'hep.conf'
+[2018-07-17 05:02:29] ERROR[9] res_calendar.c: Unable to load config calendar.conf
+[2018-07-17 05:02:29] ERROR[9] pbx_lua.c: Error loading extensions.lua: cannot open '/etc/asterisk/extensions.lua' for reading: No such file or directory
+[2018-07-17 05:02:29] ERROR[9] config_options.c: Unable to load config file 'res_parking.conf'
+[2018-07-17 05:02:29] WARNING[9] res_config_pgsql.c: Unable to load config res_pgsql.conf
+[2018-07-17 05:02:29] VERBOSE[9] chan_sip.c: SIP channel loading...
+[2018-07-17 05:02:29] NOTICE[9] iax2/provision.c: No IAX provisioning configuration found, IAX provisioning disabled.
+[2018-07-17 05:02:29] NOTICE[9] chan_console.c: Unable to open configuration file console.conf!
+[2018-07-17 05:02:29] NOTICE[9] chan_skinny.c: Configuring skinny from skinny.conf
+[2018-07-17 05:02:29] NOTICE[9] chan_skinny.c: Unable to load config skinny.conf, Skinny disabled.
+[2018-07-17 05:02:29] ERROR[9] config_options.c: Unable to load config file 'agents.conf'
+[2018-07-17 05:02:29] ERROR[9] app_agent_pool.c: Unable to load config. Not loading module.
+[2018-07-17 05:02:29] NOTICE[9] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[2018-07-17 05:02:29] WARNING[9] res_calendar.c: Calendar support disabled, not loading caldav calendar module
+[2018-07-17 05:02:29] WARNING[9] res_calendar.c: Calendar support disabled, not loading ews calendar module
+[2018-07-17 05:02:29] WARNING[9] res_calendar.c: Calendar support disabled, not loading ical calendar module
+[2018-07-17 05:02:29] NOTICE[9] cel_tds.c: Unable to load TDS config for CELs: cel_tds.conf
+[2018-07-17 05:02:29] WARNING[9] cel_tds.c: cel_tds module had config problems; declining load
+[2018-07-17 05:02:29] WARNING[9] cel_manager.c: Failed to load configuration file. CEL manager Module not activated.
+[2018-07-17 05:02:29] ERROR[9] cdr_syslog.c: Unable to load cdr_syslog.conf. Not logging custom CSV CDRs to syslog.
+[2018-07-17 05:02:29] NOTICE[9] cdr_tds.c: Unable to load TDS config for CDRs: cdr_tds.conf
+[2018-07-17 05:02:29] WARNING[9] cdr_odbc.c: cdr_odbc: Unable to load config for ODBC CDR's: cdr_odbc.conf
+[2018-07-17 05:02:29] WARNING[9] cdr_manager.c: Failed to load configuration file. Module not activated.
+[2018-07-17 05:02:29] WARNING[9] cel_pgsql.c: Unable to load config for PostgreSQL CEL's: cel_pgsql.conf
+[2018-07-17 05:02:29] WARNING[9] cdr_sqlite3_custom.c: Failed to load configuration file. Module not activated.
+[2018-07-17 05:02:29] WARNING[9] cel_sqlite3_custom.c: Failed to load configuration file. Module not activated.
+[2018-07-17 05:02:29] WARNING[9] cel_odbc.c: Unable to load cel_odbc.conf.  No ODBC CEL records!
+[2018-07-17 05:02:29] WARNING[9] cdr_pgsql.c: Unable to load config for PostgreSQL CDR's: cdr_pgsql.conf
+[2018-07-17 05:02:29] WARNING[9] res_hep_rtcp.c: res_hep is not loaded or running; declining module load
+[2018-07-17 05:02:29] ERROR[9] pbx_dundi.c: Unable to load config dundi.conf
+[2018-07-17 05:02:29] ERROR[9] app_amd.c: Configuration file amd.conf missing.
+[2018-07-17 05:02:29] WARNING[9] app_voicemail.c: maxsilence should be less than minsecs or you may get empty messages
+[2018-07-17 05:02:29] ERROR[9] chan_unistim.c: Unable to load config unistim.conf
+[2018-07-17 05:02:29] ERROR[9] chan_phone.c: Unable to load config phone.conf
+[2018-07-17 05:02:29] WARNING[9] res_snmp.c: Could not load res_snmp.conf
+[2018-07-17 05:02:29] WARNING[9] app_festival.c: No such configuration file festival.conf
+[2018-07-17 05:02:29] WARNING[9] app_followme.c: No follow me config file (followme.conf), so no follow me
+[2018-07-17 05:02:29] NOTICE[9] func_odbc.c: Unable to load config for func_odbc: func_odbc.conf
+[2018-07-17 05:02:29] NOTICE[9] pbx_ael.c: File /etc/asterisk/extensions.ael not found; AEL declining load
+[2018-07-17 05:02:29] NOTICE[9] app_queue.c: No queuerules.conf file found, queues will not follow penalty rules
+[2018-07-17 05:02:29] VERBOSE[9] asterisk.c: Asterisk Ready.
+[2018-07-17 07:38:18] VERBOSE[9] asterisk.c: Asterisk cleanly ending (0).
+[2018-07-17 07:38:18] VERBOSE[9] asterisk.c: Executing last minute cleanups
+[2018-07-17 07:42:45] Asterisk 13.22.0 built by root @ c21de52d607e on a x86_64 running Linux on 2018-07-17 04:29:59 UTC
+[2018-07-17 07:42:45] NOTICE[8] loader.c: 6 modules will be loaded.
+[2018-07-17 07:42:45] WARNING[8] loader.c: Error loading module 'chan_local.so': /usr/lib64/asterisk/modules/chan_local.so: cannot open shared object file: No such file or directory
+[2018-07-17 07:42:45] WARNING[8] res_odbc.c: The 'pooling', 'shared_connections', 'limit', and 'idlecheck' options were replaced by 'max_connections'.  See res_odbc.conf.sample.
+[2018-07-17 07:42:45] WARNING[8] res_odbc.c: The 'pooling', 'shared_connections', 'limit', and 'idlecheck' options were replaced by 'max_connections'.  See res_odbc.conf.sample.
+[2018-07-17 07:42:45] WARNING[8] res_odbc.c: res_odbc: Error SQLConnect=-1 errno=2002 [unixODBC][MySQL][ODBC 5.1 Driver]Can't connect to local MySQL server through socket '/var/lib/mysq
+[2018-07-17 07:42:45] NOTICE[8] res_odbc.c: Registered ODBC class 'asteriskcdrdb' dsn->[MySQL-asteriskcdrdb]
+[2018-07-17 07:42:45] WARNING[8] res_odbc.c: res_odbc: Error SQLConnect=-1 errno=2002 [unixODBC][MySQL][ODBC 5.1 Driver]Can't connect to local MySQL server through socket '/var/lib/mysq
+[2018-07-17 07:42:45] WARNING[8] cdr_adaptive_odbc.c: No such connection 'asteriskcdrdb' in the 'asteriskcdrdb' section of cdr_adaptive_odbc.conf.  Check res_odbc.conf.
+[2018-07-17 07:42:45] WARNING[8] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 198 of /etc/asterisk/extensions_additional.conf
+[2018-07-17 07:42:45] WARNING[8] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 199 of /etc/asterisk/extensions_additional.conf
+[2018-07-17 07:42:45] WARNING[8] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 814 of /etc/asterisk/extensions_additional.conf
+[2018-07-17 07:42:45] WARNING[8] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 815 of /etc/asterisk/extensions_additional.conf
+[2018-07-17 07:42:45] WARNING[8] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 816 of /etc/asterisk/extensions_additional.conf
+[2018-07-17 07:42:45] WARNING[8] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 127 of extensions.conf
+[2018-07-17 07:42:45] WARNING[8] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 128 of extensions.conf
+[2018-07-17 07:42:45] WARNING[8] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 129 of extensions.conf
+[2018-07-17 07:42:45] WARNING[8] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 130 of extensions.conf
+[2018-07-17 07:42:45] WARNING[8] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 131 of extensions.conf
+[2018-07-17 07:42:45] WARNING[8] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 132 of extensions.conf
+[2018-07-17 07:42:45] WARNING[8] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 133 of extensions.conf
+[2018-07-17 07:42:45] WARNING[8] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 146 of extensions.conf
+[2018-07-17 07:42:45] WARNING[8] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 147 of extensions.conf
+[2018-07-17 07:42:45] WARNING[8] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 148 of extensions.conf
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'from-did-direct' tries to include nonexistent context 'ext-findmefollow'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'from-internal-xfer' tries to include nonexistent context 'from-internal-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'from-internal-noxfer' tries to include nonexistent context 'from-internal-noxfer-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'from-pstn' tries to include nonexistent context 'from-pstn-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'from-internal-noxfer-additional' tries to include nonexistent context 'from-internal-noxfer-additional-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'from-internal-additional' tries to include nonexistent context 'from-internal-additional-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'macro-parked-call' tries to include nonexistent context 'macro-parked-call-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'func-apply-sipheaders' tries to include nonexistent context 'func-apply-sipheaders-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'func-set-sipheader' tries to include nonexistent context 'func-set-sipheader-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'macro-dial-one' tries to include nonexistent context 'macro-dial-one-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'macro-hangupcall' tries to include nonexistent context 'macro-hangupcall-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'macro-blkvm-check' tries to include nonexistent context 'macro-blkvm-check-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'macro-blkvm-clr' tries to include nonexistent context 'macro-blkvm-clr-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'macro-blkvm-set' tries to include nonexistent context 'macro-blkvm-set-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'macro-blkvm-setifempty' tries to include nonexistent context 'macro-blkvm-setifempty-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'originate-skipvm' tries to include nonexistent context 'originate-skipvm-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'macro-simple-dial' tries to include nonexistent context 'macro-simple-dial-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'macro-exten-vm' tries to include nonexistent context 'macro-exten-vm-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'macro-vm' tries to include nonexistent context 'macro-vm-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'macro-block-cf' tries to include nonexistent context 'macro-block-cf-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'macro-setmusic' tries to include nonexistent context 'macro-setmusic-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'macro-dial-confirm' tries to include nonexistent context 'macro-dial-confirm-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'from-dahdi' tries to include nonexistent context 'from-dahdi-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'from-zaptel' tries to include nonexistent context 'from-zaptel-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'macro-outbound-callerid' tries to include nonexistent context 'macro-outbound-callerid-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'macro-user-callerid' tries to include nonexistent context 'macro-user-callerid-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'macro-privacy-mgr' tries to include nonexistent context 'macro-privacy-mgr-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'sub-pincheck' tries to include nonexistent context 'sub-pincheck-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'macro-auto-blkvm' tries to include nonexistent context 'macro-auto-blkvm-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'macro-auto-confirm' tries to include nonexistent context 'macro-auto-confirm-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'macro-confirm' tries to include nonexistent context 'macro-confirm-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'bad-number' tries to include nonexistent context 'bad-number-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'app-blackhole' tries to include nonexistent context 'app-blackhole-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'outbound-allroutes' tries to include nonexistent context 'outbound-allroutes-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'macro-prepend-cid' tries to include nonexistent context 'macro-prepend-cid-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'ext-trunk' tries to include nonexistent context 'ext-trunk-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'ext-local' tries to include nonexistent context 'ext-local-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'from-did-direct-ivr' tries to include nonexistent context 'from-did-direct-ivr-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'ext-did-catchall' tries to include nonexistent context 'ext-did-catchall-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'ext-did' tries to include nonexistent context 'ext-did-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'ext-test' tries to include nonexistent context 'ext-test-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'app-chanspy' tries to include nonexistent context 'app-chanspy-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'app-pickup' tries to include nonexistent context 'app-pickup-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'findmefollow-ringallv2' tries to include nonexistent context 'findmefollow-ringallv2-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'ext-local-confirm' tries to include nonexistent context 'ext-local-confirm-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'macro-dial' tries to include nonexistent context 'macro-dial-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'app-userlogonoff' tries to include nonexistent context 'app-userlogonoff-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'app-vmmain' tries to include nonexistent context 'app-vmmain-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'app-dialvm' tries to include nonexistent context 'app-dialvm-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'vm-callme' tries to include nonexistent context 'vm-callme-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'macro-systemrecording' tries to include nonexistent context 'macro-systemrecording-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'systemrecording-gui' tries to include nonexistent context 'systemrecording-gui-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'sub-hr24format' tries to include nonexistent context 'sub-hr24format-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'app-speakingclock' tries to include nonexistent context 'app-speakingclock-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'sub-hr12format' tries to include nonexistent context 'sub-hr12format-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'app-speakextennum' tries to include nonexistent context 'app-speakextennum-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'app-echo-test-echo' tries to include nonexistent context 'app-echo-test-echo-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'app-echo-test' tries to include nonexistent context 'app-echo-test-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'app-calltrace-perform' tries to include nonexistent context 'app-calltrace-perform-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'app-calltrace' tries to include nonexistent context 'app-calltrace-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'ext-featurecodes' tries to include nonexistent context 'ext-featurecodes-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'macro-one-touch-record' tries to include nonexistent context 'macro-one-touch-record-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'sub-record-hh-check' tries to include nonexistent context 'sub-record-hh-check-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'sub-record-check' tries to include nonexistent context 'sub-record-check-custom'
+[2018-07-17 07:42:45] WARNING[8] pbx.c: Context 'sub-record-cancel' tries to include nonexistent context 'sub-record-cancel-custom'
+[2018-07-17 07:42:45] NOTICE[8] dnsmgr.c: Managed DNS entries will be refreshed every 300 seconds.
+[2018-07-17 07:42:45] ERROR[8] config_options.c: Unable to load config file 'acl.conf'
+[2018-07-17 07:42:45] NOTICE[8] cdr.c: CDR simple logging enabled.
+[2018-07-17 07:42:45] ERROR[8] config_options.c: Unable to load config file 'cel.conf'
+[2018-07-17 07:42:45] NOTICE[8] cel.c: Failed to process CEL configuration; using defaults
+[2018-07-17 07:42:45] WARNING[8] ccss.c: Could not find valid ccss.conf file. Using cc_max_requests default
+[2018-07-17 07:42:45] WARNING[8] ccss.c: Could not find valid ccss.conf file. Using cc_[state]_devstate defaults
+[2018-07-17 07:42:45] NOTICE[8] loader.c: 248 modules will be loaded.
+[2018-07-17 07:42:45] WARNING[8] loader.c: Error loading module 'res_xmpp.so': libiksemel.so.3: cannot open shared object file: No such file or directory
+[2018-07-17 07:42:45] WARNING[8] loader.c: Error loading module 'chan_motif.so': libiksemel.so.3: cannot open shared object file: No such file or directory
+[2018-07-17 07:42:45] WARNING[8] loader.c: Error loading module 'res_calendar_exchange.so': libiksemel.so.3: cannot open shared object file: No such file or directory
+[2018-07-17 07:42:45] ERROR[8] config_options.c: Unable to load config file 'statsd.conf'
+[2018-07-17 07:42:45] WARNING[8] res_stun_monitor.c: Unable to load config res_stun_monitor.conf
+[2018-07-17 07:42:45] NOTICE[8] res_smdi.c: Unable to load config smdi.conf: SMDI disabled
+[2018-07-17 07:42:45] NOTICE[8] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[2018-07-17 07:42:45] NOTICE[8] res_fax.c: Configuration file 'res_fax.conf' not found, using default options.
+[2018-07-17 07:42:45] ERROR[8] config_options.c: Unable to load config file 'ari.conf'
+[2018-07-17 07:42:45] ERROR[8] ari/config.c: Error obtaining config from ari.conf
+[2018-07-17 07:42:45] ERROR[8] config_options.c: Unable to load config file 'hep.conf'
+[2018-07-17 07:42:45] ERROR[8] res_calendar.c: Unable to load config calendar.conf
+[2018-07-17 07:42:45] ERROR[8] pbx_lua.c: Error loading extensions.lua: cannot open '/etc/asterisk/extensions.lua' for reading: No such file or directory
+[2018-07-17 07:42:46] ERROR[8] config_options.c: Unable to load config file 'res_parking.conf'
+[2018-07-17 07:42:46] WARNING[8] res_config_pgsql.c: Unable to load config res_pgsql.conf
+[2018-07-17 07:42:46] VERBOSE[8] chan_sip.c: SIP channel loading...
+[2018-07-17 07:42:46] NOTICE[8] iax2/provision.c: No IAX provisioning configuration found, IAX provisioning disabled.
+[2018-07-17 07:42:46] NOTICE[8] chan_console.c: Unable to open configuration file console.conf!
+[2018-07-17 07:42:46] NOTICE[8] chan_skinny.c: Configuring skinny from skinny.conf
+[2018-07-17 07:42:46] NOTICE[8] chan_skinny.c: Unable to load config skinny.conf, Skinny disabled.
+[2018-07-17 07:42:46] ERROR[8] config_options.c: Unable to load config file 'agents.conf'
+[2018-07-17 07:42:46] ERROR[8] app_agent_pool.c: Unable to load config. Not loading module.
+[2018-07-17 07:42:46] NOTICE[8] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[2018-07-17 07:42:46] WARNING[8] res_calendar.c: Calendar support disabled, not loading caldav calendar module
+[2018-07-17 07:42:46] WARNING[8] res_calendar.c: Calendar support disabled, not loading ews calendar module
+[2018-07-17 07:42:46] WARNING[8] res_calendar.c: Calendar support disabled, not loading ical calendar module
+[2018-07-17 07:42:46] NOTICE[8] cel_tds.c: Unable to load TDS config for CELs: cel_tds.conf
+[2018-07-17 07:42:46] WARNING[8] cel_tds.c: cel_tds module had config problems; declining load
+[2018-07-17 07:42:46] WARNING[8] cel_manager.c: Failed to load configuration file. CEL manager Module not activated.
+[2018-07-17 07:42:46] ERROR[8] cdr_syslog.c: Unable to load cdr_syslog.conf. Not logging custom CSV CDRs to syslog.
+[2018-07-17 07:42:46] NOTICE[8] cdr_tds.c: Unable to load TDS config for CDRs: cdr_tds.conf
+[2018-07-17 07:42:46] WARNING[8] cdr_odbc.c: cdr_odbc: Unable to load config for ODBC CDR's: cdr_odbc.conf
+[2018-07-17 07:42:46] WARNING[8] cdr_manager.c: Failed to load configuration file. Module not activated.
+[2018-07-17 07:42:46] WARNING[8] cel_pgsql.c: Unable to load config for PostgreSQL CEL's: cel_pgsql.conf
+[2018-07-17 07:42:46] WARNING[8] cdr_sqlite3_custom.c: Failed to load configuration file. Module not activated.
+[2018-07-17 07:42:46] WARNING[8] cel_sqlite3_custom.c: Failed to load configuration file. Module not activated.
+[2018-07-17 07:42:46] WARNING[8] cel_odbc.c: Unable to load cel_odbc.conf.  No ODBC CEL records!
+[2018-07-17 07:42:46] WARNING[8] cdr_pgsql.c: Unable to load config for PostgreSQL CDR's: cdr_pgsql.conf
+[2018-07-17 07:42:46] WARNING[8] res_hep_rtcp.c: res_hep is not loaded or running; declining module load
+[2018-07-17 07:42:46] ERROR[8] pbx_dundi.c: Unable to load config dundi.conf
+[2018-07-17 07:42:46] ERROR[8] app_amd.c: Configuration file amd.conf missing.
+[2018-07-17 07:42:46] WARNING[8] app_voicemail.c: maxsilence should be less than minsecs or you may get empty messages
+[2018-07-17 07:42:46] ERROR[8] chan_unistim.c: Unable to load config unistim.conf
+[2018-07-17 07:42:46] ERROR[8] chan_phone.c: Unable to load config phone.conf
+[2018-07-17 07:42:46] WARNING[8] res_snmp.c: Could not load res_snmp.conf
+[2018-07-17 07:42:46] WARNING[8] app_festival.c: No such configuration file festival.conf
+[2018-07-17 07:42:46] WARNING[8] app_followme.c: No follow me config file (followme.conf), so no follow me
+[2018-07-17 07:42:46] NOTICE[8] func_odbc.c: Unable to load config for func_odbc: func_odbc.conf
+[2018-07-17 07:42:46] NOTICE[8] pbx_ael.c: File /etc/asterisk/extensions.ael not found; AEL declining load
+[2018-07-17 07:42:46] NOTICE[8] app_queue.c: No queuerules.conf file found, queues will not follow penalty rules
+[2018-07-17 07:42:46] VERBOSE[8] asterisk.c: Asterisk Ready.
+[2018-07-17 07:43:36] VERBOSE[8] asterisk.c: Asterisk cleanly ending (0).
+[2018-07-17 07:43:36] VERBOSE[8] asterisk.c: Executing last minute cleanups
+[2018-07-17 07:44:25] Asterisk 13.22.0 built by root @ c21de52d607e on a x86_64 running Linux on 2018-07-17 04:29:59 UTC
+[2018-07-17 07:44:25] NOTICE[9] loader.c: 6 modules will be loaded.
+[2018-07-17 07:44:25] WARNING[9] loader.c: Error loading module 'chan_local.so': /usr/lib64/asterisk/modules/chan_local.so: cannot open shared object file: No such file or directory
+[2018-07-17 07:44:25] WARNING[9] res_odbc.c: The 'pooling', 'shared_connections', 'limit', and 'idlecheck' options were replaced by 'max_connections'.  See res_odbc.conf.sample.
+[2018-07-17 07:44:25] WARNING[9] res_odbc.c: The 'pooling', 'shared_connections', 'limit', and 'idlecheck' options were replaced by 'max_connections'.  See res_odbc.conf.sample.
+[2018-07-17 07:44:25] WARNING[9] res_odbc.c: res_odbc: Error SQLConnect=-1 errno=2002 [unixODBC][MySQL][ODBC 5.1 Driver]Can't connect to local MySQL server through socket '/var/lib/mysq
+[2018-07-17 07:44:25] NOTICE[9] res_odbc.c: Registered ODBC class 'asteriskcdrdb' dsn->[MySQL-asteriskcdrdb]
+[2018-07-17 07:44:25] WARNING[9] res_odbc.c: res_odbc: Error SQLConnect=-1 errno=2002 [unixODBC][MySQL][ODBC 5.1 Driver]Can't connect to local MySQL server through socket '/var/lib/mysq
+[2018-07-17 07:44:25] WARNING[9] cdr_adaptive_odbc.c: No such connection 'asteriskcdrdb' in the 'asteriskcdrdb' section of cdr_adaptive_odbc.conf.  Check res_odbc.conf.
+[2018-07-17 07:44:25] WARNING[9] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 198 of /etc/asterisk/extensions_additional.conf
+[2018-07-17 07:44:25] WARNING[9] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 199 of /etc/asterisk/extensions_additional.conf
+[2018-07-17 07:44:25] WARNING[9] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 814 of /etc/asterisk/extensions_additional.conf
+[2018-07-17 07:44:25] WARNING[9] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 815 of /etc/asterisk/extensions_additional.conf
+[2018-07-17 07:44:25] WARNING[9] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 816 of /etc/asterisk/extensions_additional.conf
+[2018-07-17 07:44:25] WARNING[9] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 127 of extensions.conf
+[2018-07-17 07:44:25] WARNING[9] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 128 of extensions.conf
+[2018-07-17 07:44:25] WARNING[9] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 129 of extensions.conf
+[2018-07-17 07:44:25] WARNING[9] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 130 of extensions.conf
+[2018-07-17 07:44:25] WARNING[9] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 131 of extensions.conf
+[2018-07-17 07:44:25] WARNING[9] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 132 of extensions.conf
+[2018-07-17 07:44:25] WARNING[9] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 133 of extensions.conf
+[2018-07-17 07:44:25] WARNING[9] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 146 of extensions.conf
+[2018-07-17 07:44:25] WARNING[9] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 147 of extensions.conf
+[2018-07-17 07:44:25] WARNING[9] pbx_config.c: The use of '_.' for an extension is strongly discouraged and can have unexpected behavior.  Please use '_X.' instead at line 148 of extensions.conf
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'from-did-direct' tries to include nonexistent context 'ext-findmefollow'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'from-internal-xfer' tries to include nonexistent context 'from-internal-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'from-internal-noxfer' tries to include nonexistent context 'from-internal-noxfer-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'from-pstn' tries to include nonexistent context 'from-pstn-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'from-internal-noxfer-additional' tries to include nonexistent context 'from-internal-noxfer-additional-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'from-internal-additional' tries to include nonexistent context 'from-internal-additional-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'macro-parked-call' tries to include nonexistent context 'macro-parked-call-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'func-apply-sipheaders' tries to include nonexistent context 'func-apply-sipheaders-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'func-set-sipheader' tries to include nonexistent context 'func-set-sipheader-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'macro-dial-one' tries to include nonexistent context 'macro-dial-one-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'macro-hangupcall' tries to include nonexistent context 'macro-hangupcall-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'macro-blkvm-check' tries to include nonexistent context 'macro-blkvm-check-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'macro-blkvm-clr' tries to include nonexistent context 'macro-blkvm-clr-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'macro-blkvm-set' tries to include nonexistent context 'macro-blkvm-set-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'macro-blkvm-setifempty' tries to include nonexistent context 'macro-blkvm-setifempty-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'originate-skipvm' tries to include nonexistent context 'originate-skipvm-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'macro-simple-dial' tries to include nonexistent context 'macro-simple-dial-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'macro-exten-vm' tries to include nonexistent context 'macro-exten-vm-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'macro-vm' tries to include nonexistent context 'macro-vm-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'macro-block-cf' tries to include nonexistent context 'macro-block-cf-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'macro-setmusic' tries to include nonexistent context 'macro-setmusic-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'macro-dial-confirm' tries to include nonexistent context 'macro-dial-confirm-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'from-dahdi' tries to include nonexistent context 'from-dahdi-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'from-zaptel' tries to include nonexistent context 'from-zaptel-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'macro-outbound-callerid' tries to include nonexistent context 'macro-outbound-callerid-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'macro-user-callerid' tries to include nonexistent context 'macro-user-callerid-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'macro-privacy-mgr' tries to include nonexistent context 'macro-privacy-mgr-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'sub-pincheck' tries to include nonexistent context 'sub-pincheck-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'macro-auto-blkvm' tries to include nonexistent context 'macro-auto-blkvm-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'macro-auto-confirm' tries to include nonexistent context 'macro-auto-confirm-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'macro-confirm' tries to include nonexistent context 'macro-confirm-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'bad-number' tries to include nonexistent context 'bad-number-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'app-blackhole' tries to include nonexistent context 'app-blackhole-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'outbound-allroutes' tries to include nonexistent context 'outbound-allroutes-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'macro-prepend-cid' tries to include nonexistent context 'macro-prepend-cid-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'ext-trunk' tries to include nonexistent context 'ext-trunk-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'ext-local' tries to include nonexistent context 'ext-local-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'from-did-direct-ivr' tries to include nonexistent context 'from-did-direct-ivr-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'ext-did-catchall' tries to include nonexistent context 'ext-did-catchall-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'ext-did' tries to include nonexistent context 'ext-did-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'ext-test' tries to include nonexistent context 'ext-test-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'app-chanspy' tries to include nonexistent context 'app-chanspy-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'app-pickup' tries to include nonexistent context 'app-pickup-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'findmefollow-ringallv2' tries to include nonexistent context 'findmefollow-ringallv2-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'ext-local-confirm' tries to include nonexistent context 'ext-local-confirm-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'macro-dial' tries to include nonexistent context 'macro-dial-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'app-userlogonoff' tries to include nonexistent context 'app-userlogonoff-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'app-vmmain' tries to include nonexistent context 'app-vmmain-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'app-dialvm' tries to include nonexistent context 'app-dialvm-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'vm-callme' tries to include nonexistent context 'vm-callme-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'macro-systemrecording' tries to include nonexistent context 'macro-systemrecording-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'systemrecording-gui' tries to include nonexistent context 'systemrecording-gui-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'sub-hr24format' tries to include nonexistent context 'sub-hr24format-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'app-speakingclock' tries to include nonexistent context 'app-speakingclock-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'sub-hr12format' tries to include nonexistent context 'sub-hr12format-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'app-speakextennum' tries to include nonexistent context 'app-speakextennum-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'app-echo-test-echo' tries to include nonexistent context 'app-echo-test-echo-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'app-echo-test' tries to include nonexistent context 'app-echo-test-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'app-calltrace-perform' tries to include nonexistent context 'app-calltrace-perform-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'app-calltrace' tries to include nonexistent context 'app-calltrace-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'ext-featurecodes' tries to include nonexistent context 'ext-featurecodes-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'macro-one-touch-record' tries to include nonexistent context 'macro-one-touch-record-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'sub-record-hh-check' tries to include nonexistent context 'sub-record-hh-check-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'sub-record-check' tries to include nonexistent context 'sub-record-check-custom'
+[2018-07-17 07:44:25] WARNING[9] pbx.c: Context 'sub-record-cancel' tries to include nonexistent context 'sub-record-cancel-custom'
+[2018-07-17 07:44:25] NOTICE[9] dnsmgr.c: Managed DNS entries will be refreshed every 300 seconds.
+[2018-07-17 07:44:25] ERROR[9] config_options.c: Unable to load config file 'acl.conf'
+[2018-07-17 07:44:25] NOTICE[9] cdr.c: CDR simple logging enabled.
+[2018-07-17 07:44:25] ERROR[9] config_options.c: Unable to load config file 'cel.conf'
+[2018-07-17 07:44:25] NOTICE[9] cel.c: Failed to process CEL configuration; using defaults
+[2018-07-17 07:44:25] WARNING[9] ccss.c: Could not find valid ccss.conf file. Using cc_max_requests default
+[2018-07-17 07:44:25] WARNING[9] ccss.c: Could not find valid ccss.conf file. Using cc_[state]_devstate defaults
+[2018-07-17 07:44:25] NOTICE[9] loader.c: 248 modules will be loaded.
+[2018-07-17 07:44:25] WARNING[9] loader.c: Error loading module 'res_xmpp.so': libiksemel.so.3: cannot open shared object file: No such file or directory
+[2018-07-17 07:44:25] WARNING[9] loader.c: Error loading module 'chan_motif.so': libiksemel.so.3: cannot open shared object file: No such file or directory
+[2018-07-17 07:44:25] WARNING[9] loader.c: Error loading module 'res_calendar_exchange.so': libiksemel.so.3: cannot open shared object file: No such file or directory
+[2018-07-17 07:44:25] ERROR[9] config_options.c: Unable to load config file 'statsd.conf'
+[2018-07-17 07:44:25] WARNING[9] res_stun_monitor.c: Unable to load config res_stun_monitor.conf
+[2018-07-17 07:44:25] NOTICE[9] res_smdi.c: Unable to load config smdi.conf: SMDI disabled
+[2018-07-17 07:44:25] NOTICE[9] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[2018-07-17 07:44:25] NOTICE[9] res_fax.c: Configuration file 'res_fax.conf' not found, using default options.
+[2018-07-17 07:44:25] ERROR[9] config_options.c: Unable to load config file 'ari.conf'
+[2018-07-17 07:44:25] ERROR[9] ari/config.c: Error obtaining config from ari.conf
+[2018-07-17 07:44:25] ERROR[9] config_options.c: Unable to load config file 'hep.conf'
+[2018-07-17 07:44:25] ERROR[9] res_calendar.c: Unable to load config calendar.conf
+[2018-07-17 07:44:25] ERROR[9] pbx_lua.c: Error loading extensions.lua: cannot open '/etc/asterisk/extensions.lua' for reading: No such file or directory
+[2018-07-17 07:44:25] ERROR[9] config_options.c: Unable to load config file 'res_parking.conf'
+[2018-07-17 07:44:25] WARNING[9] res_config_pgsql.c: Unable to load config res_pgsql.conf
+[2018-07-17 07:44:25] VERBOSE[9] chan_sip.c: SIP channel loading...
+[2018-07-17 07:44:25] NOTICE[9] iax2/provision.c: No IAX provisioning configuration found, IAX provisioning disabled.
+[2018-07-17 07:44:25] NOTICE[9] chan_console.c: Unable to open configuration file console.conf!
+[2018-07-17 07:44:25] NOTICE[9] chan_skinny.c: Configuring skinny from skinny.conf
+[2018-07-17 07:44:25] NOTICE[9] chan_skinny.c: Unable to load config skinny.conf, Skinny disabled.
+[2018-07-17 07:44:25] ERROR[9] config_options.c: Unable to load config file 'agents.conf'
+[2018-07-17 07:44:25] ERROR[9] app_agent_pool.c: Unable to load config. Not loading module.
+[2018-07-17 07:44:25] NOTICE[9] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[2018-07-17 07:44:25] WARNING[9] res_calendar.c: Calendar support disabled, not loading caldav calendar module
+[2018-07-17 07:44:25] WARNING[9] res_calendar.c: Calendar support disabled, not loading ews calendar module
+[2018-07-17 07:44:25] WARNING[9] res_calendar.c: Calendar support disabled, not loading ical calendar module
+[2018-07-17 07:44:25] NOTICE[9] cel_tds.c: Unable to load TDS config for CELs: cel_tds.conf
+[2018-07-17 07:44:25] WARNING[9] cel_tds.c: cel_tds module had config problems; declining load
+[2018-07-17 07:44:25] WARNING[9] cel_manager.c: Failed to load configuration file. CEL manager Module not activated.
+[2018-07-17 07:44:25] ERROR[9] cdr_syslog.c: Unable to load cdr_syslog.conf. Not logging custom CSV CDRs to syslog.
+[2018-07-17 07:44:25] NOTICE[9] cdr_tds.c: Unable to load TDS config for CDRs: cdr_tds.conf
+[2018-07-17 07:44:25] WARNING[9] cdr_odbc.c: cdr_odbc: Unable to load config for ODBC CDR's: cdr_odbc.conf
+[2018-07-17 07:44:25] WARNING[9] cdr_manager.c: Failed to load configuration file. Module not activated.
+[2018-07-17 07:44:25] WARNING[9] cel_pgsql.c: Unable to load config for PostgreSQL CEL's: cel_pgsql.conf
+[2018-07-17 07:44:25] WARNING[9] cdr_sqlite3_custom.c: Failed to load configuration file. Module not activated.
+[2018-07-17 07:44:25] WARNING[9] cel_sqlite3_custom.c: Failed to load configuration file. Module not activated.
+[2018-07-17 07:44:25] WARNING[9] cel_odbc.c: Unable to load cel_odbc.conf.  No ODBC CEL records!
+[2018-07-17 07:44:25] WARNING[9] cdr_pgsql.c: Unable to load config for PostgreSQL CDR's: cdr_pgsql.conf
+[2018-07-17 07:44:25] WARNING[9] res_hep_rtcp.c: res_hep is not loaded or running; declining module load
+[2018-07-17 07:44:25] ERROR[9] pbx_dundi.c: Unable to load config dundi.conf
+[2018-07-17 07:44:25] ERROR[9] app_amd.c: Configuration file amd.conf missing.
+[2018-07-17 07:44:25] WARNING[9] app_voicemail.c: maxsilence should be less than minsecs or you may get empty messages
+[2018-07-17 07:44:25] ERROR[9] chan_unistim.c: Unable to load config unistim.conf
+[2018-07-17 07:44:25] ERROR[9] chan_phone.c: Unable to load config phone.conf
+[2018-07-17 07:44:25] WARNING[9] res_snmp.c: Could not load res_snmp.conf
+[2018-07-17 07:44:25] WARNING[9] app_festival.c: No such configuration file festival.conf
+[2018-07-17 07:44:25] WARNING[9] app_followme.c: No follow me config file (followme.conf), so no follow me
+[2018-07-17 07:44:25] NOTICE[9] func_odbc.c: Unable to load config for func_odbc: func_odbc.conf
+[2018-07-17 07:44:25] NOTICE[9] pbx_ael.c: File /etc/asterisk/extensions.ael not found; AEL declining load
+[2018-07-17 07:44:25] NOTICE[9] app_queue.c: No queuerules.conf file found, queues will not follow penalty rules
+[2018-07-17 07:44:25] VERBOSE[9] asterisk.c: Asterisk Ready.
+[2018-07-17 07:44:43] VERBOSE[9] asterisk.c: Asterisk cleanly ending (0).
+[2018-07-17 07:44:43] VERBOSE[9] asterisk.c: Executing last minute cleanups

@@ -1,0 +1,124 @@
+FROM ubuntu:16.04
+
+RUN apt-get update --fix-missing && apt-get dist-upgrade -y 
+
+RUN apt-get install build-essential apt-transport-https lsb-release ca-certificates wget -y
+
+ENV DEBIAN_FRONTEND=noninteractive
+
+RUN apt-get update && apt-get install -y python-dev mysql-server  mysql-client mongodb bison flex php php-pear curl sox\
+    libncurses5-dev libssl-dev libmysqlclient-dev mpg123 libxml2-dev libnewt-dev sqlite3\
+    libsqlite3-dev pkg-config automake libtool autoconf git unixodbc-dev uuid uuid-dev\
+    libasound2-dev libogg-dev libvorbis-dev libicu-dev libcurl4-openssl-dev libical-dev libneon27-dev libsrtp0-dev\
+    libspandsp-dev sudo  subversion libtool-bin \
+    && rm -rf /var/lib/apt/lists/*
+# install nodejs
+RUN curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash - \
+    && apt-get install -y nodejs
+
+# Install Legacy pear requirements
+# RUN pear install Console_Getopt
+
+# Install Dependencies for Google Voice (if required)
+RUN cd /usr/src \
+    && git clone https://github.com/meduketto/iksemel.git \
+    && cd iksemel \
+    && ./autogen.sh \
+    && ./configure \
+    && make \
+    && make install \
+    && ldconfig
+
+# Install jansson
+RUN cd /usr/src && wget -O jansson.tar.gz https://github.com/akheron/jansson/archive/v2.7.tar.gz \
+    && tar vxfz jansson.tar.gz \
+    && rm -f jansson.tar.gz \
+    && cd jansson-* \
+    && autoreconf -i \
+    && ./configure \
+    && make \
+    && make install
+
+# Get pj project
+# RUN git clone git://github.com/asterisk/pjproject pjproject &&\
+#     cd pjproject \
+#     && ./configure --prefix=/usr --enable-shared --disable-sound --disable-resample --disable-video --disable-opencore-amr CFLAGS='-O2 -DNDEBUG' \
+#     &&    make dep \
+#     &&  make && make install \
+#     && ldconfig \
+#     && ldconfig -p |grep pj
+
+# ENV AUTOBUILD_UNIXTIME 123124
+
+# Install Asterisk
+RUN cd /usr/src &&\
+    wget http://downloads.asterisk.org/pub/telephony/asterisk/asterisk-14.7.7.tar.gz &&\
+    tar zxvf asterisk-14.7.7.tar.gz && cd asterisk-* \
+    && contrib/scripts/get_mp3_source.sh \
+    && contrib/scripts/install_prereq install \
+    && ./configure --with-pjproject-bundled \
+    && make menuselect.makeopts \
+    && menuselect/menuselect \
+        --disable BUILD_NATIVE \
+        --enable cdr_csv \
+        --enable chan_sip \
+        --enable res_snmp \
+        --enable res_http_websocket \
+        --enable res_hep_pjsip \
+        --enable res_hep_rtcp \
+        menuselect.makeopts \
+    # Continue with a standard make.
+    && make 1> /dev/null \
+    && make install 1> /dev/null \
+    && make samples 1> /dev/null
+
+
+# Configure
+# RUN ./configure --libdir=/usr/lib64 1> /dev/null
+# Remove the native build option
+# from: https://wiki.asterisk.org/wiki/display/AST/Building+and+Installing+Asterisk
+# RUN make menuselect.makeopts
+# RUN menuselect/menuselect \
+#     --disable BUILD_NATIVE \
+#     --enable cdr_csv \
+#     --enable chan_sip \
+#     --enable res_snmp \
+#     --enable res_http_websocket \
+#     --enable res_hep_pjsip \
+#     --enable res_hep_rtcp \
+#     menuselect.makeopts
+
+# # Continue with a standard make.
+# RUN make 1> /dev/null
+# RUN make install 1> /dev/null
+# RUN make samples 1> /dev/null
+
+# Install and Configure FreePBX
+RUN useradd -m asterisk &&\
+    chown asterisk. /var/run/asterisk &&\
+    chown -R asterisk. /etc/asterisk &&\
+    chown -R asterisk. /var/{lib,log,spool}/asterisk &&\
+    chown -R asterisk. /usr/lib/asterisk &&\
+    rm -rf /var/www/html
+
+# Configure ODBC
+ADD odbcinst.ini /etc/odbcinst.ini
+ADD odbc.ini /etc/odbc.ini
+
+#  Download and install FreePBX.
+RUN cd /usr/src &&\
+    wget http://mirror.freepbx.org/modules/packages/freepbx/freepbx-14.0-latest.tgz  &&\
+    tar vxfz freepbx-14.0-latest.tgz  &&\
+    rm -f freepbx-14.0-latest.tgz  &&\
+    cd freepbx  &&\
+    touch /etc/asterisk/ari.conf  &&\
+    ./start_asterisk start  &&\
+    ./install -n
+
+
+WORKDIR /
+
+# Update max number of open files.
+RUN sed -i -e 's/# MAXFILES=/MAXFILES=/' /usr/sbin/safe_asterisk
+
+CMD asterisk -f
