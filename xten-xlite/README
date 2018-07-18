@@ -1,0 +1,33 @@
+**********************************
+* X-Lite 2.0 Linux Release Notes *
+**********************************
+
+INSTALLATION:
+
+Untar the file:
+> tar -zxvf X-Lite_Install.tar.gz
+
+This should expand the files into xten-xlite directory.
+> cd xten-xlite
+
+The executable is xtensoftphone, it should already have +x permission. If it does not, change the permission:
+> chmod +x xtensoftphone
+
+To run the executable:
+> ./xtensoftphone
+
+Copy the executable to a defined $PATH if you so wish.
+
+
+NOTE:
+Executable is tested to work with:
+OS: Fedora Core 3, Suse 9.2
+Platform: i386, Athlon, i686
+Sound Driver: snd_via82xx, snd_usb_audio, snd_intel8x0 (OSS emulation)
+
+
+KNOWN ISSUES:
+- Using GSM codec might crash on some platform combination.
+
+Use at your own risk!! Please report any bug/problem to xlite linux forum. 
+Click on the '?' on the top left to open a link to the support forum.

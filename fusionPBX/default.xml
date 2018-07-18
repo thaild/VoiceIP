@@ -35,12 +35,12 @@
     </variables>
     
     <!-- config by thaild -->
-    <user id="arne">
+    <user id="555">
         <params></params>
     </user>
-    <user id="arnepw">
+    <user id="555">
         <params>
-            <param name="password" value="arnepw" />
+            <param name="password" value="555" />
         </params>
     </user>
     
