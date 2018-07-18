@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian:8
 
 # Install Required Dependencies
 RUN apt-get update \
@@ -28,9 +28,10 @@ RUN ln -s /etc/nginx/sites-available/fusionpbx /etc/nginx/sites-enabled/fusionpb
 RUN curl https://files.freeswitch.org/repo/deb/debian/freeswitch_archive_g0.pub | apt-key add - \
     && echo "deb http://files.freeswitch.org/repo/deb/freeswitch-1.6/ jessie main" > /etc/apt/sources.list.d/freeswitch.list \
     && apt-get update
-ADD memcached_1.4.21-1.1+deb8u2_amd64.deb memcached.deb
-RUN apt-get install libevent-2.0-5 && dpkg -i memcached.deb
-RUN apt-get install -y --force-yes freeswitch-meta-bare freeswitch-conf-vanilla freeswitch-sysvinit freeswitch-mod-commands freeswitch-meta-codecs \
+# ADD memcached_1.4.21-1.1+deb8u2_amd64.deb memcached.deb
+RUN apt-get install libyuv libc6 memcached -y
+#libevent-2.0-5 && dpkg -i memcached.deb
+RUN apt-get update  && apt-get install -y --force-yes freeswitch-meta-bare freeswitch-conf-vanilla freeswitch-sysvinit freeswitch-mod-commands freeswitch-meta-codecs \
     freeswitch-mod-console freeswitch-mod-logfile freeswitch-mod-distributor freeswitch-lang-en freeswitch-mod-say-en freeswitch-sounds-en-us-callie \
     freeswitch-music-default freeswitch-mod-enum freeswitch-mod-cdr-csv freeswitch-mod-event-socket freeswitch-mod-sofia freeswitch-mod-sofia-dbg freeswitch-mod-loopback \
     freeswitch-mod-conference freeswitch-mod-db freeswitch-mod-dptools freeswitch-mod-expr freeswitch-mod-fifo libyuv-dev freeswitch-mod-httapi \
@@ -76,3 +77,9 @@ COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 COPY start-freeswitch.sh /usr/bin/start-freeswitch.sh
 VOLUME ["/var/lib/postgresql", "/etc/freeswitch", "/var/lib/freeswitch", "/usr/share/freeswitch", "/var/www/fusionpbx"]
 CMD /usr/bin/supervisord -n
+
+# A few small modifications to Apache.
+RUN sed -i 's/\(^upload_max_filesize = \).*/\120M/' /etc/php5/fpm/php.ini &&\
+    sed -i 's/\(^max_execution_time = \).*/\120/' /etc/php5/fpm/php.ini &&\
+    sed -i 's/\(^memory_limit = \).*/\120/' /etc/php5/fpm/php.ini
+   
